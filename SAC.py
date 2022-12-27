@@ -13,11 +13,7 @@ from env_single import env1
 from rule_base import *
 import wandb
 wandb.init(project="my-project", entity="ZhangLin")
-gamma = 0.99
-tau = 1e-2
-hidden_size = 256
-learning_rate = 5e-4
-clip_grad_param = 1
+
 
 class ReplayBuffer:
     """用于存储经验元组的固定大小缓冲区。s."""
@@ -66,7 +62,7 @@ def get_config():
     parser.add_argument("--run_name", type=str, default="SAC", help="Run name, default: SAC")
     parser.add_argument("--env", type=str, default="CartPole-v0", help="Gym environment name, default: CartPole-v0")
     parser.add_argument("--episodes", type=int, default=20000, help="Number of episodes, default: 100")
-    parser.add_argument("--buffer_size", type=int, default=1000, help="Maximal training dataset size, default: 100_000")
+    parser.add_argument("--buffer_size", type=int, default=2000, help="Maximal training dataset size, default: 100_000")
     parser.add_argument("--seed", type=int, default=1, help="Seed, default: 1")
     parser.add_argument("--log_video", type=int, default=0, help="Log agent behaviour to wanbd when set to 1, default: 0")
     parser.add_argument("--save_every", type=int, default=1000, help="Saves the network every x epochs, default: 25")
@@ -78,7 +74,7 @@ def get_config():
     return args
 
 
-def collect_random(env, dataset, num_samples=2000):
+def collect_random(env, dataset, num_samples=2100):
     env.reset()
     state=env.observations()
     config = get_config()

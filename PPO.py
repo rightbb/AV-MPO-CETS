@@ -35,7 +35,7 @@ def main():
     # Training loop
     for i_episode in range(1, 20000):  # 玩多少局
         env.reset()  ##“环境初始化”
-        for t in range(H.max_timesteps * 10):  # 每一局玩到什么时候结束
+        for t in range(H.max_timesteps):  # 每一局玩到什么时候结束
             # order_togolist,img = env.observations() #输入状态
             Obs = env.observations()  # 输入状态
             timestep += 1

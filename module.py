@@ -469,10 +469,10 @@ class SAC(nn.Module):
         self.state_size = state_size
         self.action_size = action_size
         self.device = device
-        self.gamma = 0.99
+        self.gamma = 0.96
         self.tau = 1e-2
         hidden_size = 256
-        learning_rate = 5e-4
+        learning_rate = 1e-3
         self.clip_grad_param = 1
 
         self.target_entropy = -action_size  # -dim(A)

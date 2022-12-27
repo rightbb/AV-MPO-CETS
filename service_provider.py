@@ -13,7 +13,7 @@ class secondST():
 
 class firstFT():
     def __init__(self,ftask_id,number):
-        self.ftask_id=ftask_id  #1-12
+        self.ftask_id=ftask_id  
         self.number=number
         self.stask_id_list=SecondLayerTask[ftask_id]
         self.stask_list=[secondST(eve,number) for eve in self.stask_id_list]
@@ -31,9 +31,8 @@ np.random.seed(9)
 class order():
     def __init__(self,order_number):
         FTlist = []
-        order_random = np.random.randint(12, size=9)  #[0-11]长度为9
-
-        for i in range(len(order_random)):#订单长度
+        order_random = np.random.randint(12, size=18)  
+        for i in range(len(order_random)):
             FTlist.append(firstFT(order_random[i]+1, str(order_number) + '_'+str(i)) )
         self.FTlist=FTlist
         self.ac_time=0
@@ -76,7 +75,6 @@ class workshop():
                         if stask_list[i].left_time <=min_time:
                             min_time=stask_list[i].left_time
 
-
             for rf in self.equipments_state:
                 self.worktime=0
                 if rf !=0:
@@ -103,7 +101,7 @@ class BaseServiceProvider():
     def __init__(self, site_id, relative_position, equipment_ids_list,equipment_number):
         self.site_id = site_id
         self.absolute_position = np.array([10, 10]) + np.array(
-            [20 * relative_position[0], 20 * relative_position[1]])
+            [400 * relative_position[0], 400 * relative_position[1]])
         self.equipment_ids_list=equipment_ids_list
         self.equipment_number=equipment_number
         self.wait_beserved_ST=[]
@@ -140,7 +138,7 @@ class ServiceProviders():
 
     def recieveFT_list(self,match_firstFT_list:'list19'):
         """
-        供应商接受到某时刻一级子任务[[],【class ft】,..,class ft]
+        供应商接受到某时刻一级子任务[[],[class ft],..,class ft]
         :return:
         """
         assert len(match_firstFT_list)==18
@@ -154,7 +152,6 @@ class ServiceProviders():
 
         """
         输入的是当前所有的一级任务列表 self.FTlist
-        所有的车间按照一级任务进行更新，有一级任务完成大家都停止。反复调用BaseServiceProvider的step，直到有1级完成
         :return:
         遍历一级任务，每次有二级任务完成的，找到对应的pop出上面step中的
         firstFT.ac_time+=secondFT.ac_time

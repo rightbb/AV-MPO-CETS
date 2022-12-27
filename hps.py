@@ -40,13 +40,13 @@ def add_arguments(parser):
     parser.add_argument('--env_name', type=str, default='rooms_watermaze')
     parser.add_argument('--action_dim', type=int, default=9)
     parser.add_argument('--log_interval', type=int, default=40)
-    parser.add_argument('--max_episodes', type=int, default=50000)
-    parser.add_argument('--max_timesteps', type=int, default=300)
-    parser.add_argument('--update_timestep', type=int, default=1200)#更新的时间
+    parser.add_argument('--max_episodes', type=int, default=20000)
+    parser.add_argument('--max_timesteps', type=int, default=30000)
+    parser.add_argument('--update_timestep', type=int, default=100)#更新的时间
     parser.add_argument('--action_list', type=list, default=[])
 
     # training
-    parser.add_argument('--lr', type=float, default=0.0005)
+    parser.add_argument('--lr', type=float, default=0.001)
     parser.add_argument('--betas', type=tuple, default=(0.9, 0.999))
     parser.add_argument('--gamma', type=float, default=0.96)
     parser.add_argument('--K_epochs', type=int, default=4)
