@@ -1,0 +1,348 @@
+id,Model,Brand,Power,Size,Scope,Load,Weight,Voltage,Classify,Precision,Install,Operation time(min),cost($)
+1,IRB_120,ABB,0.24,180*180,580,3,25,200~600,Assembly robot,0.01,"Floor, wall, bracket, inclined, hoisting",3,1 
+2,IRB_260,ABB,NULL,723*600,1560,30,340,200~600,Assembly robot,0.1,fall to the ground,8,3 
+3,IRB_2600-20/1.65,ABB,3.4,676*511,1650,20,272,200~600,Assembly robot,0.04,"Floor, wall, bracket, inclined, hoisting",8,3 
+4,IRB_4600-40/2.55,ABB,NULL,512*676,2550,40,435,200~600,Assembly robot,0.06,"Floor, inclined, hoisting, bracket",13,4 
+5,IRB_6600-175/2.55,ABB,2.6,1136*850,2550,175,1750,200~600,Assembly robot,0.1,fall to the ground,13,18 
+6,IRB_6600-175/2.8,ABB,2.6,1136*850,2800,175,1750,200~600,Assembly robot,0.1,fall to the ground,14,18 
+7,IRB_6600-225/2.55,ABB,2.6,1136*850,2550,225,1750,200~600,Assembly robot,0.1,fall to the ground,13,18 
+8,IRB_6650S-125/3.2,ABB,2.6,1136*850,3200,125,1750,200~600,Assembly robot,0.1,fall to the ground,16,18 
+9,IRB_6650S-200/2.75,ABB,2.6,1136*850,2750,200,2750,200~600,Assembly robot,0.1,fall to the ground,14,28 
+10,IRB_6660-100/3.3,ABB,2.3,1206*798,3350,100,1950,200~600,Assembly robot,0.1,fall to the ground,17,20 
+11,IRB_6660-130/3.1,ABB,3.1,1206*798,3100,130,1910,200~600,Assembly robot,0.11,fall to the ground,16,19 
+12,IRB_6660-205/1.9,ABB,3.6,1206*798,1930,205,1730,200~600,Assembly robot,0.07,fall to the ground,10,17 
+13,IRB_7600-150/3.5,ABB,3.4,1206.5*791,3500,150,2450,200~600,Assembly robot,0.2,fall to the ground,18,25 
+14,IRB_7600-325/3.1,ABB,3.4,1206.5*791,3100,325,2440,200~600,Assembly robot,0.1,fall to the ground,16,24 
+15,IRB_7600-340/2.8,ABB,3.4,1206.5*791,2800,340,2425,200~600,Assembly robot,0.3,fall to the ground,14,24 
+16,IRB_7600-400/2.55,ABB,3.4,1206.5*791,2550,400,2400,200~600,Assembly robot,0.2,fall to the ground,13,24 
+17,IRB_7600-500/2.55,ABB,3.4,1206.5*791,2550,500,2400,200~600,Assembly robot,0.1,fall to the ground,13,24 
+18,KR_100-3_comp,KUKA,NULL,NULL,2400,100,1155,200~600,Assembly robot,0.15,fall to the ground,12,12 
+19,KR_1000_1300_TITAN_PA,KUKA,NULL,NULL,3202,1300,4690,200~600,Assembly robot,0.01,fall to the ground,16,47 
+20,KR_1000_L950_TITAN_PA,KUKA,NULL,NULL,3601,950,4740,200~600,Assembly robot,0.1,fall to the ground,18,47 
+21,KR_180-2_PA,KUKA,NULL,NULL,3200,180,1240,200~600,Assembly robot,0.25,fall to the ground,16,12 
+22,KR_240_R3200_PA_(KR_QUANTEC),KUKA,NULL,NULL,3195,240,1103,200~600,Assembly robot,0.06,fall to the ground,16,11 
+23,KR_470-2_PA,KUKA,NULL,NULL,3150,470,2150,200~600,Assembly robot,0.08,fall to the ground,16,22 
+24,LR_Mate_200iC,FANUC,NULL,NULL,704,5,27,200~600,Assembly robot,0.02,fall to the ground,4,1 
+25,LR_Mate_200iC/5F,FANUC,NULL,NULL,711,5,27,200~600,Assembly robot,0.02,fall to the ground,4,1 
+26,M-16iB/10L,FANUC,NULL,NULL,960,10,220,200~600,Assembly robot,0.1,"floor, hoisting",5,2 
+27,M-16iB/20,FANUC,NULL,NULL,740,20,220,200~600,Assembly robot,0.1,"floor, hoisting",4,2 
+28,M-1iA/0.5S,FANUC,NULL,NULL,420,0.5,14,200~600,Assembly robot,0.02,"floor, hoisting",2,1 
+29,M-20iA/12L,FANUC,NULL,NULL,2009,12,250,200~600,Assembly robot,0.03,fall to the ground,10,3 
+30,M-20iA/20M,FANUC,NULL,NULL,1813,20,250,200~600,Assembly robot,0.03,fall to the ground,9,3 
+31,M-710iC/12L,FANUC,NULL,NULL,3123,12,540,200~600,Assembly robot,0.04,"Floor, hoisting, inclined",16,5 
+32,M-710iC/20L,FANUC,NULL,NULL,3110,20,530,200~600,Assembly robot,0.06,"Floor, hoisting, inclined",16,5 
+33,M-710iC/50,FANUC,NULL,NULL,2050,50,560,200~600,Assembly robot,0.03,"Floor, hoisting, inclined",10,6 
+34,M-710iC/70,FANUC,NULL,NULL,2050,70,560,200~600,Assembly robot,0.04,"Floor, hoisting, inclined",10,6 
+35,R-2000iB/165F,FANUC,NULL,NULL,2660,165,1170,380~415,Assembly robot,0.02,fall to the ground,13,12 
+36,R-2000iB/165R,FANUC,NULL,NULL,3095,165,1170,380~415,Assembly robot,0.02,fall to the ground,15,12 
+37,R-2000iB/175L,FANUC,NULL,NULL,2852,175,1260,380~415,Assembly robot,0.3,fall to the ground,14,13 
+38,R-2000iB/185L,FANUC,NULL,NULL,3060,185,1290,380~415,Assembly robot,0.3,fall to the ground,15,13 
+39,R-2000iB/210FS,FANUC,NULL,NULL,2605,210,1250,380~415,Assembly robot,0.3,fall to the ground,13,13 
+40,R-2000iB/220U,FANUC,NULL,NULL,2470,220,1150,380~415,Assembly robot,0.3,fall to the ground,12,12 
+41,R-2000iB/250F,FANUC,NULL,NULL,2655,250,1270,380~415,Assembly robot,0.3,fall to the ground,13,13 
+42,RS006L,KAWASAKI,NULL,NULL,1650,6,150,200~600,Assembly robot,0.03,"floor, hoisting",8,2 
+43,RS007L,KAWASAKI,5.6,NULL,930,7,36, 200~600,Assembly robot,0.03,"floor, hoisting",5,1 
+44,RS010N,KAWASAKI,NULL,NULL,1400,10,400,200~600,Assembly robot,0.04,fall to the ground,7,5 
+45,RS030N,KAWASAKI,7.5,NULL,2100,30,555,200~600,Assembly robot,0.06,"floor, hoisting",11,6 
+46,RS050N,KAWASAKI,NULL,NULL,2100,50,555,200~600,Assembly robot,0.06,"floor, hoisting",11,6 
+47,RS10L,KAWASAKI,NULL,NULL,1925,10,230,200~600,Assembly robot,0.06,fall to the ground,10,2 
+48,XR-4371G,DENSO,NULL,NULL,200,5,45,200~600,Assembly robot,0.015,Hoisting,1,1 
+49,XR-4372G,DENSO,NULL,NULL,760,5,46,200~600,Assembly robot,0.015,Hoisting,4,1 
+50,XR-4373G,DENSO,NULL,NULL,760,5,47,200~600,Assembly robot,0.015,Hoisting,4,1 
+51,XR-43A1,DENSO,NULL,NULL,1060,5,51,200~600,Assembly robot,0.015,Hoisting,5,2 
+52,XR-43A2,DENSO,NULL,NULL,1060,5,52,200~600,Assembly robot,0.015,Hoisting,5,2 
+53,XR-43A3,DENSO,NULL,NULL,1060,5,53,200~600,Assembly robot,0.015,Hoisting,5,2 
+54,IRB_52/1.2,ABB,0.8,NULL,1200,7,250,200~600,spraying robot,0.15,"Floor, hanging, wall hanging",6,3 
+55,IRB_52/1.45,ABB,0.8,NULL,1450,7,250,200~600,spraying robot,0.15,"Floor, hanging, wall hanging",7,3 
+56,IRB_5350,ABB,0.8,NULL,1350,7,316,200~600,spraying robot,0.02,"floor, stand",7,3 
+57,IRB_5500-22,ABB,NULL,500*600,2975,13,600,200~600,spraying robot,0.15,"Floor, wall, bracket, inclined, hoisting",15,6 
+58,IRB_5500-23,ABB,NULL,500*680,2970,13,600,200~600,spraying robot,0.15,"Floor, wall, bracket, inclined, hoisting",15,6 
+59,IRB_580-12,ABB,0.8,660*750,2200,10,630,200~600,spraying robot,0.3,fall to the ground,11,6 
+60,IRB_580-16,ABB,0.8,660*750,2600,10,630,200~600,spraying robot,0.3,fall to the ground,13,6 
+61,KF193,KAWASAKI,NULL,NULL,1973,12,720,200~600,spraying robot,0.5,"floor, stand",10,7 
+62,KF194,KAWASAKI,NULL,NULL,1978,12,750,200~600,spraying robot,0.5,"floor-standing, wall-mounted",10,8 
+63,KF262,KAWASAKI,NULL,NULL,2665,12,720,200~600,spraying robot,0.5,"floor-standing, wall-mounted",13,7 
+64,KF263,KAWASAKI,NULL,NULL,2665,12,740,200~600,spraying robot,0.5,"floor-standing, wall-mounted",13,7 
+65,KF264,KAWASAKI,NULL,NULL,2668,12,770,200~600,spraying robot,0.5,"floor-standing, wall-mounted",13,8 
+66,KG264,KAWASAKI,NULL,NULL,2665,20,795,200~600,spraying robot,0.5,"Floor, stand, wall mount",13,8 
+67,KR 180 R2500 extra,KUKA,NULL,NULL,2500,180,1059,200~600,spraying robot,0.06,"floor, hoisting",13,12 
+68,KR_120_R2500_pro,KUKA,NULL,NULL,2496,120,1049,200~600,spraying robot,0.06,fall to the ground,12,11 
+69,KR_120_R2900_extra,KUKA,NULL,NULL,2896,120,1084,200~600,spraying robot,0.06,fall to the ground,14,12 
+70,KR_120_R3500_prime_K,KUKA,NULL,NULL,3501,120,1192,200~600,spraying robot,0.06,fall to the ground,18,12 
+71,KR_120_R3900_ultra_K,KUKA,NULL,NULL,3901,120,1221,200~600,spraying robot,0.06,fall to the ground,20,12 
+72,KR_150_R2700_extra,KUKA,NULL,NULL,2700,150,1078,200~600,spraying robot,0.06,fall to the ground,14,12 
+73,KR_150_R3100_prime,KUKA,NULL,NULL,3095,150,1114,200~600,spraying robot,0.06,fall to the ground,15,11 
+74,KR_150_R3300_prime_K,KUKA,NULL,NULL,3301,150,1168,200~600,spraying robot,0.06,fall to the ground,17,12 
+75,KR_180_R2900_prime,KUKA,NULL,NULL,2896,180,1106,200~600,spraying robot,0.06,fall to the ground,14,11 
+76,KR_180_R3100_prime_K,KUKA,NULL,NULL,3100,180,1168,200~600,spraying robot,0.06,fall to the ground,16,12 
+77,KR_180_R3500_ultra_K,KUKA,NULL,NULL,3500,180,1201,200~600,spraying robot,0.06,fall to the ground,18,12 
+78,KR_210_R2900_prime_K,KUKA,7.9,NULL,2901,210,1180,200~600,spraying robot,0.06,fall to the ground,15,12 
+79,KR_210_R3100_ultra,KUKA,7.9,NULL,3095,210,1154,200~600,spraying robot,0.06,"floor, hoisting",15,12 
+80,KR_210_R3300_ultra_K,KUKA,7.9,NULL,3301,210,1214,200~600,spraying robot,0.06,fall to the ground,17,12 
+81,KR_240_R2500_prime,KUKA,NULL,NULL,2696,240,1111,200~600,spraying robot,0.06,fall to the ground,13,11 
+82,KR_240_R2700_prime,KUKA,NULL,NULL,2496,240,1102,200~600,spraying robot,0.06,fall to the ground,12,11 
+83,KR_240_R2900_ultra,KUKA,NULL,NULL,2896,240,1145,200~600,spraying robot,0.06,"floor, hoisting",14,11 
+84,KR_240_R3100_ultra_K,KUKA,NULL,NULL,3101,240,1198,200~600,spraying robot,0.06,fall to the ground,16,12 
+85,KR_270_R2700_ultra,KUKA,NULL,NULL,2696,270,1129,200~600,spraying robot,0.06,"floor, hoisting",13,11 
+86,KR_270_R2900_ultra_K,KUKA,NULL,NULL,2901,270,1189,200~600,spraying robot,0.06,fall to the ground,15,12 
+87,KR_30_JET,KUKA,NULL,NULL,1682,30,435,200~600,spraying robot,0.07,bracket,8,4 
+88,KR_300_R2500_ultra,KUKA,NULL,NULL,2496,300,1120,200~600,spraying robot,0.06,"floor, hoisting",12,11 
+89,KR_6_R900_sixx,KUKA,NULL,NULL,901,6,52,200~600,spraying robot,0.05,"floor, hoisting",5,2 
+90,KR_6_R900_sixx_C,KUKA,NULL,NULL,901,6,51,200~600,spraying robot,0.05,"floor, hoisting",5,2 
+91,KR_6_R900_sixx_W,KUKA,NULL,NULL,901,6,52,200~600,spraying robot,0.05,"floor, hoisting",5,2 
+92,KR_90_R2700_pro,KUKA,NULL,NULL,2700,90,1058,200~600,spraying robot,0.06,fall to the ground,14,12 
+93,KR_90_R3100_extra,KUKA,NULL,NULL,3095,90,1092,200~600,spraying robot,0.06,fall to the ground,15,12 
+94,KR_90_R3700_prime_K,KUKA,NULL,NULL,3701,90,1204,200~600,spraying robot,0.06,fall to the ground,19,12 
+95,P-250iA/10S,FANUC,NULL,NULL,2000,10,520,200~600,spraying robot,0.2,fall to the ground,10,5 
+96,P-250iA/15,FANUC,NULL,NULL,2800,15,520,200~600,spraying robot,0.2,fall to the ground,14,5 
+97,P-50iB/10L,FANUC,NULL,NULL,1800,10,364,200~600,spraying robot,0.2,"Floor, hanging, wall hanging",9,4 
+98,P-50iB/15,FANUC,NULL,NULL,1400,15,356,200~600,spraying robot,0.2,"Floor, hanging, wall hanging",7,4 
+99,Paint_Mate_200iA,FANUC,0.5,NULL,704,5,35,200~600,spraying robot,0.02,"Floor, hoisting, inclined",4,1 
+100,CP130L,KAWASAKI,12,850*750,3255,130,1600,200~600,Palletizing robot,0.5,fall to the ground,16,16 
+101,CP180L,KAWASAKI,12,850*750,3255,180,1600,200~600,Palletizing robot,0.5,fall to the ground,16,16 
+102,CP300L,KAWASAKI,12,850*750,3255,300,1600,200~600,Palletizing robot,0.5,fall to the ground,16,16 
+103,CP500L,KAWASAKI,12,850*750,3255,500,1600,200~600,Palletizing robot,0.5,fall to the ground,16,16 
+104,CP700L,KAWASAKI,12,850*750,3255,700,1600,200~600,Palletizing robot,0.5,fall to the ground,16,16 
+105,IRB_140,ABB,0.4,400*450,810,6,98,200~600,Palletizing robot,0.03,"Floor, wall, bracket, inclined, hoisting",4,2 
+106,IRB_360-1/1130,ABB,0.477,NULL,1130,1,120,200~600,Palletizing robot,0.1,Hoisting,6,1 
+107,IRB_360-1/800,ABB,0.477,NULL,800,1,120,200~600,Palletizing robot,0.1,Hoisting,4,1 
+108,IRB_360-3/1130,ABB,0.477,NULL,1130,3,120,200~600,Palletizing robot,0.1,Hoisting,6,1 
+109,IRB_360-6/1600,ABB,0.477,NULL,1600,6,120,200~600,Palletizing robot,0.1,Hoisting,8,1 
+110,IRB_360-8/1130,ABB,0.477,NULL,1130,8,120,200~600,Palletizing robot,0.1,Hoisting,6,1 
+111,IRB_460-110/2.4,ABB,NULL,NULL,2400,110,925,200~600,Palletizing robot,0.2,fall to the ground,12,9 
+112,IRB_660-180/3.15,ABB,3.2,1136*850,3150,180,1650,200~600,Palletizing robot,0.05,fall to the ground,16,17 
+113,IRB_660-250/3.15,ABB,3.2,1136*850,3150,250,1650,200~600,Palletizing robot,0.05,fall to the ground,16,17 
+114,KR_100-2_PA,KUKA,13.5,1006*1006,3200,100,1200,200~600,Palletizing robot,0.25,fall to the ground,16,12 
+115,KR_1000_TITAN,KUKA,NULL,NULL,3202,1000,4690,200~600,Palletizing robot,0.1,fall to the ground,16,47 
+116,KR_300_R2700-2,KUKA,NULL,754*754,2701,370,1101,200~600,Palletizing robot,0.05,fall to the ground,14,11 
+117,KR_300-2_PA,KUKA,NULL,1000*1000,3150,300,2150,200~600,Palletizing robot,0.08,fall to the ground,16,22 
+118,KR_360_450-2 PA,KUKA,NULL,NULL,2826,450,2350,200~600,Palletizing robot,0.15,fall to the ground,14,24 
+119,KR_40_PA,KUKA,NULL,NULL,2091,40,695,200~600,Palletizing robot,0.05,fall to the ground,10,7 
+120,KR_50_R2100,KUKA,NULL,NULL,2101,50,533,200~600,Palletizing robot,0.05,"Floor, hoisting, wall hanging, inclined",11,5 
+121,KR_50_R2500,KUKA,NULL,NULL,2501,50,559,200~600,Palletizing robot,0.05,"Floor, hoisting, wall hanging, inclined",13,6 
+122,KR_500_R2830,KUKA,NULL,1050*1050,2826,611,2385,200~600,Palletizing robot,0.08,fall to the ground,14,24 
+123,LP130,NACHI,NULL,NULL,3210,130,1150,200~600,Palletizing robot,0.3,fall to the ground,16,12 
+124,LP180,NACHI,NULL,NULL,3210,180,1150,200~600,Palletizing robot,0.4,fall to the ground,16,12 
+125,LP210,NACHI,NULL,NULL,3210,210,1150,200~600,Palletizing robot,0.4,fall to the ground,16,12 
+126,MPL100II,YASKAWA,9.5,NULL,3159,100,1700,200~600,Palletizing robot,0.5,fall to the ground,16,17 
+127,MPL160II,YASKAWA,9.5,NULL,3159,160,1700,200~600,Palletizing robot,0.5,fall to the ground,16,17 
+128,MPL300II,YASKAWA,9.5,NULL,3159,300,1820,200~600,Palletizing robot,0.5,fall to the ground,16,18 
+129,MPL500II,YASKAWA,9.5,NULL,3159,500,2300,200~600,Palletizing robot,0.5,fall to the ground,16,23 
+130,MPL800II,YASKAWA,10,NULL,3159,800,2550,200~600,Palletizing robot,0.5,fall to the ground,16,26 
+131,MPL80II,YASKAWA,4,NULL,2061,80,550,200~600,Palletizing robot,0.7,fall to the ground,10,6 
+132,PAL_180-3.1,COMAU,NULL,NULL,3100,180,1213,200~600,Palletizing robot,0.1,"floor-standing, wall-mounted",16,12 
+133,PAL_260-3.1,COMAU,NULL,NULL,3100,260,1213,200~600,Palletizing robot,0.1,fall to the ground,16,12 
+134,PAL_470-3.1,COMAU,NULL,NULL,3100,470,2130,200~600,Palletizing robot,0.15,fall to the ground,16,21 
+135,TV1000,TOSHIBA,NULL,NULL,1090,5,48,200~600,Palletizing robot,0.03,fall to the ground,5,1 
+136,TV800,TOSHIBA,NULL,NULL,892,5,45,200~600,Palletizing robot,0.02,fall to the ground,4,1 
+137,VS-050,DENSO,NULL,NULL,505,4,27,200~600,Palletizing robot,0.02,"floor-standing, wall-mounted",3,1 
+138,VS-060,DENSO,NULL,NULL,605,4,28,200~600,Palletizing robot,0.02,"floor-standing, wall-mounted",3,1 
+139,VS-068,DENSO,NULL,NULL,710,7,49,200~600,Palletizing robot,0.02,"floor-standing, wall-mounted",4,1 
+140,VS-6577G,DENSO,NULL,200*200,854,7,36,200~600,Palletizing robot,0.03,"floor-standing, wall-mounted",4,1 
+141,ZD130S,KAWASAKI,10,NULL,3255,130,1350,200~600,Palletizing robot,0.5,fall to the ground,16,14 
+142,ZD250S,KAWASAKI,NULL,NULL,3255,250,1350,200~600,Palletizing robot,0.5,fall to the ground,16,14 
+143,Arc4,COMAU,5,NULL,1951,5,375,200~600,Arc welding robot,0.05,"Floor, hoisting, inclined",10,4 
+144,FD-B15,OTC,5.6,NULL,1832,15,286,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",9,3 
+145,FD-B4S,OTC,3.55,NULL,1427,4,189,200~600,Arc welding robot,0.08,fall to the ground,7,2 
+146,FD-B6,OTC,3.132,NULL,1445,6,145,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",7,1 
+147,FD-B6L,OTC,4.832,NULL,2008,6,278,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",10,3 
+148,FD-H5,OTC,1.44,NULL,866,5,58,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",4,2 
+149,FD-V166,OTC,18,NULL,2654,166,1010,200~600,Arc welding robot,0.1,fall to the ground,13,11 
+150,FD-V20S,OTC,NULL,NULL,1710,20,321,200~600,Arc welding robot,0.08,fall to the ground,9,3 
+151,FD-V210,OTC,18,NULL,2674,210,1040,200~600,Arc welding robot,0.15,fall to the ground,13,11 
+152,FD-V6LS,OTC,NULL,NULL,2006,6,316,200~600,Arc welding robot,0.08,fall to the ground,10,3 
+153,FD-V6S,OTC,3.6,NULL,1435,6,178,200~600,Arc welding robot,0.08,fall to the ground,7,2 
+154,FD-V8,OTC,3.016,NULL,1437,8,140,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",7,1 
+155,FD-V8L,OTC,5,NULL,2006,8,273,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",10,3 
+156,HA006B,HYUNDAI,4.4,NULL,1425,6,145,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",7,1 
+157,HH010L,HYUNDAI,4.4,NULL,1964,10,230,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",10,2 
+158,HH020,HYUNDAI,4.4,NULL,1742,20,225,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",9,2 
+159,HS160L,HYUNDAI,8,NULL,3036,160,985,200~600,Arc welding robot,0.2,fall to the ground,15,10 
+160,IRB_1410,ABB,4,620*450,1440,5,225,200~600,Arc welding robot,0.05,fall to the ground,7,2 
+161,IRB_1520ID,ABB,0.6,300*300,1500,4,170,200~600,Arc welding robot,0.05,fall to the ground,8,2 
+162,IRB_1600ID,ABB,0.57,484*684,1500,4,257,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",8,3 
+163,IRB_2400-10,ABB,0.67,NULL,1550,12,380,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",8,4 
+164,IRB_2400-16,ABB,0.67,600*723,1550,20,380,200~600,Arc welding robot,0.05,"floor, hoisting",8,4 
+165,IRB_2600ID-15/1.85,ABB,NULL,NULL,1850,15,273,200~600,Arc welding robot,0.026,"Floor, ceiling, wall, bracket",9,3 
+166,IRB_2600ID-8/2.00,ABB,NULL,NULL,2000,8,276,200~600,Arc welding robot,0.023,"Floor, ceiling, wall, bracket",10,3 
+167,IRB_4400-60/1.96,ABB,NULL,NULL,1960,60,1040,200~600,Arc welding robot,0.05,fall to the ground,10,11 
+168,IRB_4600-20/2.50,ABB,NULL,NULL,2510,20,412,200~600,Arc welding robot,0.05,"Floor, hoisting, bracket, inclined",13,4 
+169,IRB_4600-45/2.05,ABB,NULL,NULL,2050,45,425,200~600,Arc welding robot,0.05,"Floor, hoisting, bracket, inclined",10,4 
+170,IRB_4600-60/2.05,ABB,NULL,NULL,2050,60,425,200~600,Arc welding robot,0.06,"Floor, hoisting, bracket, inclined",10,4 
+171,IRB_6620_LX,ABB,NULL,NULL,1900,150,610,200~600,Arc welding robot,0.06,"hoisting, wall hanging",10,6 
+172,KR_16_L6-2,KUKA,NULL,NULL,1911,6,240,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",10,2 
+173,KR_16-2,KUKA,NULL,NULL,1611,16,235,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",8,2 
+174,KR_16-2_ARC_HW,KUKA,NULL,NULL,2687,165,1250,200~600,Arc welding robot,0.05,"Floor, hoisting, bracket, inclined",13,13 
+175,KR_16-2_F,KUKA,NULL,NULL,1611,16,235,200~600,Arc welding robot,0.05,"Floor, hanging, wall hanging",8,2 
+176,KR_30_L16-2,KUKA,NULL,NULL,3102,16,700,200~600,Arc welding robot,0.06,"floor, hoisting",16,7 
+177,KR_30-3,KUKA,NULL,NULL,2033,30,665,200~600,Arc welding robot,0.06,"floor, hoisting",10,7 
+178,KR_30-3_F,KUKA,NULL,NULL,2041,30,867,200~600,Arc welding robot,0.15,"floor, hoisting",10,9 
+179,KR_30-4_KS,KUKA,NULL,NULL,2233,30,600,200~600,Arc welding robot,0.06,fall to the ground,11,6 
+180,KR_30-4_KS-F,KUKA,NULL,NULL,2233,30,600,200~600,Arc welding robot,0.06,fall to the ground,11,6 
+181,KR_5_ARC,KUKA,7.3,NULL,1412,5,127,200~600,Arc welding robot,0.04,"floor, hoisting",7,1 
+182,KR_5_ARC_HW,KUKA,NULL,NULL,1423,5,120,200~600,Arc welding robot,0.1,"floor, hoisting",7,1 
+183,KR_5-2_ARC_HW,KUKA,NULL,NULL,1423,5,12,200~600,Arc welding robot,0.1,"floor, hoisting",7,1 
+184,KR_500-3,KUKA,NULL,NULL,3326,480,2463,200~600,Arc welding robot,0.08,fall to the ground,17,25 
+185,NJ_110-3.0,COMAU,NULL,NULL,2980,110,740,200~600,Arc welding robot,0.07,"Floor, hoisting, inclined",15,7 
+186,NJ_130-2.6,COMAU,NULL,NULL,2050,130,740,200~600,Arc welding robot,0.07,"Floor, hoisting, inclined",10,7 
+187,NJ_16-3.1,COMAU,NULL,NULL,3108,16,680,200~600,Arc welding robot,0.1,"Floor, hoisting, inclined",16,7 
+188,NS_12-1.85,COMAU,NULL,NULL,1850,12,335,200~600,Arc welding robot,0.05,"Floor, hoisting, inclined",9,3 
+189,NS_16-1.65,COMAU,NULL,NULL,1650,16,335,200~600,Arc welding robot,0.05,"Floor, hoisting, inclined",8,3 
+190,NV06,NACHI,NULL,NULL,1402,6,144,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",7,1 
+191,NV06L,NACHI,NULL,NULL,2006,6,273,200~600,Arc welding robot,0.08,"Floor, hanging, wall hanging",10,3 
+192,ROMAT_320,CLOOS,NULL,500*515,2500,15,205,200~600,Arc welding robot,0.1,"floor, hoisting",13,2 
+193,ROMAT_350,CLOOS,NULL,500*515,2605,15,205,200~600,Arc welding robot,0.1,"floor, hoisting",13,2 
+194,ROMAT_410,CLOOS,NULL,500*515,2895,10,205,200~600,Arc welding robot,0.1,"floor, hoisting",14,2 
+195,TA-1400,Matsushita,2.8,NULL,1374,6,161,200~600,Arc welding robot,0.1,"floor, hoisting",7,2 
+196,TA-1800,Matsushita,4.25,NULL,1796,8,185,200~600,Arc welding robot,0.1,"floor, hoisting",9,2 
+197,TB-1400,Matsushita,3,NULL,1437,4,171,200~600,Arc welding robot,0.1,"floor, hoisting",7,2 
+198,TB-1800,Matsushita,4,NULL,1802,4,195,200~600,Arc welding robot,0.1,"floor, hoisting",9,2 
+199,YS080,HYUNDAI,8,NULL,2239,80,645,200~600,Arc welding robot,0.15,fall to the ground,11,6 
+200,YS080L,HYUNDAI,8,NULL,2635,80,645,200~600,Arc welding robot,0.15,fall to the ground,13,6 
+201,IRB_6620,ABB,NULL,1007*760,2200,150,900,200~600,Spot welding robot,0.62,"Floor, hoisting, inclined",11,9 
+202,IRB_6640-185/2.80,ABB,2.7,NULL,2800,185,1405,200~600,Spot welding robot,0.05,fall to the ground,14,14 
+203,IRB_6640-235/2.55,ABB,2.7,NULL,2550,235,1310,200~600,Spot welding robot,0.05,fall to the ground,13,13 
+204,KR_16_L6-2_KS,KUKA,NULL,NULL,2101,6,245,200~600,Spot welding robot,0.05,fall to the ground,11,2 
+205,KR_16-2_KS,KUKA,7.3,NULL,3095,16,1092,200~600,Spot welding robot,0.06,fall to the ground,15,12 
+206,KR_210_R2700_2,KUKA,NULL,754*754,2701,210,1077,200~600,Spot welding robot,0.05,fall to the ground,14,12 
+207,KR_210_R2700_extra,KUKA,NULL,830*830,2696,210,1068,200~600,Spot welding robot,0.06,fall to the ground,13,12 
+208,KR_210_R2700_extra_F,KUKA,NULL,830*830,2696,210,1068,200~600,Spot welding robot,0.06,"floor, hoisting",13,12 
+209,KR_360-3,KUKA,13.5,1100*1100,3371,360,2375,200~600,Spot welding robot,0.05,fall to the ground,17,24 
+210,KR_5_sixx_R850,KUKA,NULL,,850,5,29,200~600,Spot welding robot,0.03,"floor, hoisting",4,1 
+211,KR_6-2,KUKA,7.3,NULL,1611,36,235,200~600,Spot welding robot,0.05,"Floor, hanging, wall hanging",8,2 
+212,M-900iA/200P,FANUC,NULL,NULL,3507,200,2670,200~600,Spot welding robot,0.3,fall to the ground,18,27 
+213,NJ4_110-2.2,COMAU,NULL,NULL,2503,40,655,200~600,Spot welding robot,0.06,"Floor, hoisting, inclined",13,7 
+214,NJ4_170-2.9,COMAU,NULL,NULL,2918,170,1240,200~600,Spot welding robot,0.1,fall to the ground,15,12 
+215,NJ4_175-2.2,COMAU,NULL,NULL,2503,40,655,200~600,Spot welding robot,0.06,"Floor, hoisting, inclined",13,7 
+216,NJ4_220-2.4,COMAU,NULL,NULL,2401,220,1220,200~600,Spot welding robot,0.08,"floor, hoisting",12,12 
+217,NJ4_220-2.7,COMAU,NULL,NULL,2701,220,1220,200~600,Spot welding robot,0.08,"floor, hoisting",14,12 
+218,NJ4_270-2.7,COMAU,NULL,NULL,2703,270,1975,200~600,Spot welding robot,0.15,fall to the ground,14,20 
+219,NJ4_90-2.2,COMAU,NULL,NULL,2210,110,685,200~600,Spot welding robot,0.07,"floor, hoisting",11,7 
+220,NJ_130-2.6,COMAU,NULL,NULL,2918,170,1240,200~600,Piercing Robot,0.03,fall to the ground,15,12 
+221,NJ_16-3.1,COMAU,NULL,NULL,2503,40,655,200~600,Piercing Robot,0.03,fall to the ground,13,7 
+222,NJ_165-3.0,COMAU,NULL,NULL,2401,220,1220,200~600,Piercing Robot,0.04,fall to the ground,12,12 
+223,NJ_220-2.7,COMAU,NULL,NULL,2701,220,1220,200~600,Piercing Robot,0.05,fall to the ground,14,12 
+224,NJ_290-3.0,COMAU,NULL,NULL,2703,270,1975,200~600,Piercing Robot,0.06,Hoisting,14,20 
+225,NJ_370-2.7,COMAU,NULL,NULL,2210,110,685,200~600,Piercing Robot,0.06,Hoisting,11,7 
+226,NJ_370-3.0,COMAU,NULL,NULL,1850,12,335,200~600,Piercing Robot,0.06,Hoisting,9,3 
+227,NJ_450-2.7,COMAU,NULL,NULL,1650,16,335,200~600,Piercing Robot,0.06,Hoisting,8,3 
+228,NJ_500-2.7,COMAU,NULL,NULL,1402,6,144,200~600,Piercing Robot,0.05,Hoisting,7,1 
+229,NJ4_110-2.2,COMAU,NULL,NULL,2006,6,273,200~600,Piercing Robot,0.05,"Floor, wall, bracket, inclined, hoisting",10,3 
+230,NJ4_170-2.9,COMAU,NULL,NULL,2000,10,520,200~600,Piercing Robot,0.02,"Floor, wall, bracket, inclined, hoisting",10,5 
+231,ADT-300X4G150-021,ADTECHEN,NULL,NULL,175,2,15,200~600,handling robot,0.02,"Floor, wall, bracket, inclined, hoisting",1,1 
+232,ADT-400X4G150-051,ADTECHEN,NULL,NULL,200,5,30,200~600,handling robot,0.02,"Floor, wall, bracket, inclined, hoisting",1,1 
+233,ADT-473X6G-2,ADTECHEN,NULL,NULL,588,2,20,200~600,handling robot,0.1,"Floor, wall, bracket, inclined, hoisting",3,1 
+234,ADT-600X4G300-5,ADTECHEN,NULL,NULL,350,5,26,200~600,handling robot,0.1,"Floor, wall, bracket, inclined, hoisting",2,1 
+235,ADT-HA006,ADTECHEN,NULL,NULL,1394,6,155,200~600,handling robot,0.05,fall to the ground,7,2 
+236,AR-F500L,Hirata Machine Works,NULL,NULL,650,5,28,200~600,handling robot,0.02,fall to the ground,3,1 
+237,HH130L,HYUNDAI,8,NULL,3082,130,1400,200~600,handling robot,0.25,fall to the ground,15,14 
+238,HH300,HYUNDAI,10.5,NULL,2666,300,1250,200~600,handling robot,0.05,fall to the ground,13,13 
+239,HM-4060,DENSO,NULL,NULL,600,10,55,200~600,handling robot,0.02,fall to the ground,3,2 
+240,HM-4070,DENSO,NULL,NULL,700,10,55,200~600,handling robot,0.02,"floor, hoisting",4,2 
+241,HM-4085,DENSO,NULL,NULL,850,10,55,200~600,handling robot,0.025,"floor, hoisting",4,2 
+242,HM-40A0,DENSO,NULL,NULL,1000,10,55,200~600,handling robot,0.025,fall to the ground,5,2 
+243,HM-4A60,DENSO,NULL,NULL,600,20,55,200~600,handling robot,0.02,fall to the ground,3,2 
+244,HX300L,HYUNDAI,10.5,NULL,3056,300,2685,200~600,handling robot,0.3,fall to the ground,15,27 
+245,HX400,HYUNDAI,10.5,NULL,2573,400,2620,200~600,handling robot,0.08,fall to the ground,13,26 
+246,HX500,HYUNDAI,10.5,NULL,2703,500,3130,200~600,handling robot,0.08,fall to the ground,14,31 
+247,HX600,HYUNDAI,10.5,NULL,2704,600,3200,200~600,handling robot,0.12,fall to the ground,14,32 
+248,IRB 2600-12/1.65,ABB,3.4,NULL,1650,12,272,200~600,handling robot,0.04,"Floor, wall, bracket, inclined, hoisting",8,3 
+249,IRB_1600-10/1.2,ABB,NULL,NULL,1200,10,250,200~600,handling robot,0.02,"Floor, wall, bracket, inclined, hoisting",6,3 
+250,IRB_1600-10/1.45,ABB,NULL,NULL,1450,10,250,200~600,handling robot,0.05,"Floor, wall, bracket, inclined, hoisting",7,3 
+251,IRB_1600-6/1.2,ABB,0.58,484*648,1200,6,250,200~600,handling robot,0.02,"Floor, wall, bracket, inclined, hoisting",6,3 
+252,IRB_1600-6/1.45,ABB,0.58,484*648,1450,6,250,200~600,handling robot,0.02,"Floor, wall, bracket, inclined, hoisting",7,3 
+253,IRB_2600-12/1.85,ABB,3.4,NULL,1850,12,284,200~600,handling robot,0.04,"Floor, wall, bracket, inclined, hoisting",9,3 
+254,IRB_4400-45,ABB,1.33,NULL,1960,45,1040,200~600,handling robot,0.3,fall to the ground,10,11 
+255,IRB_4400-60,ABB,1.33,NULL,1960,60,1040,200~600,handling robot,0.3,fall to the ground,10,11 
+256,IRB_4400L-10,ABB,1.28,NULL,2550,10,1040,200~600,handling robot,0.3,fall to the ground,13,11 
+257,IRB_4400L-30,ABB,1.28,NULL,2550,30,1040,200~600,handling robot,0.3,fall to the ground,13,11 
+258,IRB_6640-180/2.55,ABB,2.7,NULL,2550,180,1405,200~600,handling robot,0.05,fall to the ground,13,14 
+259,IRB_6640-205/2.75,ABB,0.58,NULL,2750,205,1320,200~600,handling robot,0.04,fall to the ground,14,13 
+260,KF121,KAWASAKI,NULL,NULL,1240,5,140,200~600,handling robot,0.2,"Floor, wall, bracket, inclined, hoisting",6,1 
+261,KR_16-2_CR,KUKA,NULL,NULL,1610,16,235,200~600,handling robot,0.05,fall to the ground,8,2 
+262,KR_30_HA,KUKA,7.3,850*950,2033,30,665,200~600,handling robot,0.05,"floor, hoisting",10,7 
+263,KR_500-3_MT,KUKA,NULL,NULL,3326,480,2463,200~600,handling robot,0.08,fall to the ground,17,25 
+264,KR_60_HA,KUKA,7.3,850*950,2033,60,685,200~600,handling robot,0.05,"floor, hoisting",10,7 
+265,KR_60_L16-2_KS,KUKA,NULL,NULL,2952,16,650,200~600,handling robot,0.06,fall to the ground,15,7 
+266,KR_60_L45-2_JET,KUKA,NULL,NULL,1682,60,435,200~600,handling robot,0.07,bracket,8,4 
+267,KR_60-3,KUKA,7.3,NULL,2033,60,665,200~600,handling robot,0.2,fall to the ground,10,7 
+268,KR_60-3_F,KUKA,7.3,NULL,2033,60,665,200~600,handling robot,0.06,"floor, hoisting",10,7 
+269,KR_60-4_KS,KUKA,NULL,NULL,2430,60,610,200~600,handling robot,0.06,fall to the ground,12,6 
+270,KR_60-4_KS-F,KUKA,NULL,NULL,2233,60,600,200~600,handling robot,0.06,fall to the ground,11,6 
+271,LP130-01,NACHI,NULL,NULL,3210,130,1150,200~600,handling robot,0.3,fall to the ground,16,12 
+272,LP180-01,NACHI,NULL,NULL,3210,180,1150,200~600,handling robot,0.4,fall to the ground,16,12 
+273,LR Mate 200iC,FANUC,NULL,NULL,703,5,27,200~600,handling robot,0.02,"Floor-standing, wall-mounted, hoisting, inclined",4,1 
+274,M-3iA/12H,FANUC,NULL,NULL,1350,12,155,200~600,handling robot,0.03,Hoisting,7,2 
+275,M-3iA/6A,FANUC,NULL,NULL,1350,6,175,200~600,handling robot,0.03,Hoisting,7,2 
+276,M-3iA/6S,FANUC,NULL,NULL,1350,6,160,200~600,handling robot,0.03,Hoisting,7,2 
+277,M-420iA,FANUC,NULL,NULL,1855,40,630,200~600,handling robot,0.5,fall to the ground,9,6 
+278,M-421iA,FANUC,NULL,NULL,1855,50,520,200~600,handling robot,0.5,fall to the ground,9,5 
+279,M-430iA/2F,FANUC,NULL,NULL,900,2,24,200~600,handling robot,0.5,"Floor, wall, ceiling",5,1 
+280,M-900iA/260L,FANUC,NULL,NULL,3100,260,1800,200~600,handling robot,0.3,fall to the ground,16,18 
+281,M-900iA/350,FANUC,NULL,NULL,2650,350,1720,200~600,handling robot,0.3,"floor, hoisting",13,17 
+282,M-900iA/400L,FANUC,NULL,NULL,3704,400,3150,200~600,handling robot,0.3,fall to the ground,19,32 
+283,M-900iA/600,FANUC,NULL,NULL,2832,600,2800,200~600,handling robot,0.4,fall to the ground,14,28 
+284,MC10L,NACHI,NULL,NULL,1575,10,225,200~600,handling robot,0.06,"floor, hoisting",8,2 
+285,MC20,NACHI,NULL,NULL,1575,20,220,200~600,handling robot,0.06,"floor, hoisting",8,2 
+286,MC35,NACHI,NULL,NULL,2050,35,640,200~600,handling robot,0.07,fall to the ground,10,6 
+287,MC50,NACHI,NULL,NULL,2050,50,640,200~600,handling robot,0.07,fall to the ground,10,6 
+288,MC70,NACHI,NULL,NULL,2050,70,640,200~600,handling robot,0.07,fall to the ground,10,6 
+289,MT400N,KAWASAKI,NULL,NULL,3503,400,2600,200~600,handling robot,0.5,fall to the ground,18,26 
+290,MX350L,KAWASAKI,NULL,NULL,3018,350,2800,200~600,handling robot,0.5,"Floor, wall, bracket, inclined, hoisting",15,28 
+291,MX420L,KAWASAKI,NULL,NULL,2778,420,2800,200~600,handling robot,0.5,"Floor, wall, bracket, inclined, hoisting",14,28 
+292,MX500N,KAWASAKI,NULL,NULL,2540,500,2750,200~600,handling robot,0.5,"Floor, wall, bracket, inclined, hoisting",13,28 
+293,MX700N,KAWASAKI,NULL,NULL,2540,500,2860,200~600,handling robot,0.5,"Floor, wall, bracket, inclined, hoisting",13,29 
+294,NJ_165-3.0,COMAU,NULL,NULL,3000,165,1240,200~600,handling robot,0.09,"floor, hoisting",15,12 
+295,NJ_220-2.7,COMAU,NULL,NULL,2701,220,1220,200~600,handling robot,0.08,"floor, hoisting",14,12 
+296,NJ_290-3.0,COMAU,NULL,NULL,2997,290,2150,200~600,handling robot,0.15,fall to the ground,15,22 
+297,NJ_370-2.7,COMAU,NULL,NULL,2703,370,2100,200~600,handling robot,0.15,fall to the ground,14,21 
+298,NJ_370-3.0,COMAU,NULL,NULL,2997,370,2450,200~600,handling robot,0.15,fall to the ground,15,25 
+299,NJ_450-2.7,COMAU,NULL,NULL,2703,450,2400,200~600,handling robot,0.15,fall to the ground,14,24 
+300,NJ_500-2.7,COMAU,NULL,NULL,2703,500,2400,200~600,handling robot,0.15,fall to the ground,14,24 
+301,R-1000iA/80F,FANUC,NULL,NULL,2230,80,620,200~600,handling robot,0.2,Hoisting,11,6 
+302,R-2000iB/125L,FANUC,NULL,NULL,3005,125,1190,200~600,handling robot,0.2,fall to the ground,15,12 
+303,RH-12FRH55,mitsubishi,NULL,NULL,550,12,65,200~600,handling robot,0.01,fall to the ground,3,2 
+304,RH-12FRH70,mitsubishi,NULL,NULL,700,12,67,200~600,handling robot,0.01,fall to the ground,4,2 
+305,RH-12FRH85,mitsubishi,NULL,NULL,850,12,69,200~600,handling robot,0.01,fall to the ground,4,2 
+306,RH-20FRH100,mitsubishi,NULL,NULL,1000,20,77,200~600,handling robot,0.01,fall to the ground,5,2 
+307,RH-20FRH85,mitsubishi,NULL,NULL,850,20,75,200~600,handling robot,0.01,fall to the ground,4,2 
+308,RH-3FRH35 ,mitsubishi,NULL,NULL,350,3,29,200~600,handling robot,0.01,fall to the ground,2,1 
+309,RH-3FRH45,mitsubishi,NULL,NULL,450,3,29,200~600,handling robot,0.01,fall to the ground,2,1 
+310,RH-3FRH55,mitsubishi,NULL,NULL,550,3,32,200~600,handling robot,0.01,fall to the ground,3,1 
+311,RH-3FRHR,mitsubishi,NULL,NULL,350,3,24,200~600,handling robot,0.01,Hoisting,2,1 
+312,RH-6FRH35,mitsubishi,NULL,NULL,350,6,36,200~600,handling robot,0.01,fall to the ground,2,1 
+313,RH-6FRH45,mitsubishi,NULL,NULL,450,6,36,200~600,handling robot,0.01,fall to the ground,2,1 
+314,RH-6FRH55,mitsubishi,NULL,NULL,550,6,37,200~600,handling robot,0.01,fall to the ground,3,1 
+315,RS020N,KAWASAKI,3,NULL,1725,20,230,200~600,handling robot,0.05,"Floor, hanging, wall hanging",9,2 
+316,RS080N,KAWASAKI,NULL,NULL,2100,80,555,200~600,handling robot,0.06,"floor, hoisting",11,6 
+317,RV-13FR,mitsubishi,NULL,NULL,1094,13,120,200~600,handling robot,0.05,"Floor, hanging, wall hanging",5,1 
+318,RV-13FRL,mitsubishi,NULL,NULL,1388,13,130,200~600,handling robot,0.05,"Floor, hanging, wall hanging",7,1 
+319,RV-20FR,mitsubishi,NULL,NULL,1094,20,120,200~600,handling robot,0.02,"Floor, hanging, wall hanging",5,1 
+320,RV-2FR,mitsubishi,NULL,NULL,504,2,19,200~600,handling robot,0.02,"Floor, hanging, wall hanging",3,1 
+321,RV-2FRL,mitsubishi,NULL,NULL,649,2,21,200~600,handling robot,0.02,"Floor, hanging, wall hanging",3,1 
+322,RV-4FR,mitsubishi,NULL,NULL,515,4,39,200~600,handling robot,0.02,"Floor, hanging, wall hanging",3,1 
+323,RV-4FRL,mitsubishi,NULL,NULL,649,4,41,200~600,handling robot,0.02,"Floor, hanging, wall hanging",3,1 
+324,RV-7FR,mitsubishi,NULL,NULL,713,7,65,200~600,handling robot,0.02,"Floor, hanging, wall hanging",4,2 
+325,RV-7FRL,mitsubishi,NULL,NULL,908,7,67,200~600,handling robot,0.02,"Floor, hanging, wall hanging",5,2 
+326,RV-8CRL,mitsubishi,NULL,NULL,931,8,41,200~600,handling robot,0.1,"Floor, hanging, wall hanging",5,1 
+327,SRA166,NACHI,NULL,NULL,2654,166,960,200~600,handling robot,0.1,fall to the ground,13,10 
+328,SRA210,NACHI,NULL,NULL,2674,210,990,200~600,handling robot,0.15,fall to the ground,13,10 
+329,VM-6083,DENSO,NULL,NULL,1021,13,82,200~600,handling robot,0.05,"floor-standing, wall-mounted",5,2 
+330,VM-60B1,DENSO,NULL,NULL,1298,13,82,200~600,handling robot,0.07,"floor-standing, wall-mounted",6,2 
+331,VP-5243,DENSO,NULL,NULL,430,3,13,200~600,handling robot,0.02,"floor, hoisting",2,1 
+332,VP-6242,DENSO,NULL,NULL,432,2.5,15,200~600,handling robot,0.02,"floor, hoisting",2,1 
+333,VS-087,DENSO,NULL,NULL,905,7,51,200~600,handling robot,0.03,"floor-standing, wall-mounted",5,2 
+334,VS-6556,DENSO,NULL,NULL,653,7,35,200~600,handling robot,0.02,"floor-standing, wall-mounted",3,1 
+335,VS-6577,DENSO,NULL,NULL,854,7,36,200~600,handling robot,0.03,"floor-standing, wall-mounted",4,1 
+336,XR-4341,DENSO,NULL,NULL,450,5,33,200~600,handling robot,0.015,Hoisting,2,1 
+337,ZH100U,KAWASAKI,NULL,NULL,1634,100,750,200~600,handling robot,0.3,fall to the ground,8,8 
+338,ZT130S,KAWASAKI,NULL,NULL,3230,130,1550,200~600,handling robot,0.3,fall to the ground,16,16 
+339,ZT165U,KAWASAKI,NULL,NULL,3230,165,1550,200~600,handling robot,0.3,fall to the ground,16,16 
+340,ZT200S,KAWASAKI,NULL,NULL,3230,200,1600,200~600,handling robot,0.3,fall to the ground,16,16 
+341,ZX130L,KAWASAKI,NULL,NULL,2951,130,1400,200~600,handling robot,0.3,"Floor, wall, bracket, inclined, hoisting",15,14 
+342,ZX130S,KAWASAKI,NULL,NULL,2651,130,1350,200~600,handling robot,0.3,"Floor, wall, bracket, inclined, hoisting",13,14 
+343,ZX165U,KAWASAKI,NULL,NULL,2651,165,1350,200~600,handling robot,0.3,"Floor, wall, bracket, inclined, hoisting",13,14 
+344,ZX200S,KAWASAKI,NULL,NULL,2651,200,1400,200~600,handling robot,0.3,"Floor, wall, bracket, inclined, hoisting",13,14 
+345,ZX300S,KAWASAKI,NULL,NULL,2501,300,1400,200~600,handling robot,0.3,"Floor, wall, bracket, inclined, hoisting",13,14 
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
